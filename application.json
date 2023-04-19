@@ -1,14 +1,21 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Influencer - Profile View",
       "isDefault": true
+    },
+    {
+      "id": "Influencer - Thought",
+      "isDefault": false
     }
   ],
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#EAEDFB",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
