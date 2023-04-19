@@ -1,0 +1,4 @@
+{
+	"content": {{NewCommentContent.text}},
+	"userID": {{Thought.data[0]["UserID"]}}
+}

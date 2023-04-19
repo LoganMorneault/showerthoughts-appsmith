@@ -50,9 +50,6 @@
               "leftColumn": 1,
               "dynamicBindingPathList": [
                 {
-                  "key": "borderRadius"
-                },
-                {
                   "key": "boxShadow"
                 }
               ],
@@ -1096,7 +1093,7 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "borderRadius": "1.5rem",
               "maxDynamicHeight": 9000,
               "minDynamicHeight": 10
             }
