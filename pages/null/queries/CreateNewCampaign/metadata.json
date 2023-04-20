@@ -16,7 +16,6 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Create a new Campaign",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -64,7 +63,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Create a new Campaign_CreateNewCampaign",
+  "id": "null_CreateNewCampaign",
   "deleted": false,
   "gitSyncId": "644066105fdb491f97f849ec_6440e35d5fdb491f97f84a0f"
 }

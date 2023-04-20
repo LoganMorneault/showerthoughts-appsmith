@@ -12,7 +12,6 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Advertiser Data",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -44,7 +43,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Advertiser Data_Campaign_Data",
+  "id": "null_Campaign_Data",
   "deleted": false,
   "gitSyncId": "644066105fdb491f97f849ec_644068955fdb491f97f849f4"
 }
