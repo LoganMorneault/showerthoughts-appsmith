@@ -1,7 +1,0 @@
-{
-	"advertiser_id":{{NewCampaign.data.AdvertiserID}},
-	"title":{{NewCampaign.data.Title}},
-	"cost":{{NewCampaign.data.Cost}},
-	"start_date":{{NewCampaign.data.StartDate}},
-	"end_date":{{NewCampaign.data.EndDate}}
-}
