@@ -201,9 +201,6 @@
                         },
                         {
                           "key": "primaryColumns.NumThoughts.computedValue"
-                        },
-                        {
-                          "key": "primaryColumns.TotalEarnings.computedValue"
                         }
                       ],
                       "needsHeightForContent": true,
@@ -242,7 +239,7 @@
                         }
                       },
                       "borderRadius": "1.5rem",
-                      "columnUpdatedAt": 1681922763846,
+                      "columnUpdatedAt": 1682008690815,
                       "originalBottomRow": 15,
                       "defaultSelectedRowIndices": [
                         0
@@ -252,8 +249,7 @@
                       "columnOrder": [
                         "NumThoughts",
                         "NumLikes",
-                        "NumComments",
-                        "TotalEarnings"
+                        "NumComments"
                       ],
                       "dynamicPropertyPathList": [
                         {
@@ -356,35 +352,6 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{StatsGrid.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"NumThoughts\"]))}}",
-                          "sticky": "",
-                          "validation": {},
-                          "cellBackground": ""
-                        },
-                        "TotalEarnings": {
-                          "allowCellWrapping": false,
-                          "index": 3,
-                          "width": 150,
-                          "originalId": "TotalEarnings",
-                          "id": "TotalEarnings",
-                          "alias": "TotalEarnings",
-                          "horizontalAlignment": "LEFT",
-                          "verticalAlignment": "CENTER",
-                          "columnType": "text",
-                          "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": true,
-                          "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
-                          "isCellVisible": true,
-                          "isDerived": false,
-                          "label": "Total Earnings",
-                          "isSaveVisible": true,
-                          "isDiscardVisible": true,
-                          "computedValue": "{{StatsGrid.processedTableData.map((currentRow, currentIndex) => ( '$' + currentRow[\"TotalEarnings\"]))}}",
                           "sticky": "",
                           "validation": {},
                           "cellBackground": ""

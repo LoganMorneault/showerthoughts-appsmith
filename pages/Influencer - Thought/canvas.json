@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 730,
+          "bottomRow": 810,
           "containerStyle": "none",
           "snapRows": 57,
           "parentRowSpace": 1,
@@ -77,7 +77,7 @@
                         "label"
                       ],
                       "topRow": 0,
-                      "bottomRow": 5,
+                      "bottomRow": 4,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -189,7 +189,7 @@
                         "label"
                       ],
                       "topRow": 6,
-                      "bottomRow": 13,
+                      "bottomRow": 10,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -241,7 +241,7 @@
                       "borderColor": "#E0DEDE",
                       "isVisibleDownload": false,
                       "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-                      "topRow": 15,
+                      "topRow": 12,
                       "isSortable": true,
                       "type": "TABLE_WIDGET_V2",
                       "inlineEditingSaveOption": "ROW_LEVEL",
@@ -261,9 +261,6 @@
                         },
                         {
                           "key": "primaryColumns.NumLikes.computedValue"
-                        },
-                        {
-                          "key": "primaryColumns.TotalEarnings.computedValue"
                         }
                       ],
                       "needsHeightForContent": true,
@@ -301,7 +298,7 @@
                         }
                       },
                       "borderRadius": "1.5rem",
-                      "columnUpdatedAt": 1681925800461,
+                      "columnUpdatedAt": 1682008919564,
                       "originalBottomRow": 24,
                       "defaultSelectedRowIndices": [
                         0
@@ -310,12 +307,11 @@
                       "defaultPageSize": 0,
                       "columnOrder": [
                         "NumComments",
-                        "NumLikes",
-                        "TotalEarnings"
+                        "NumLikes"
                       ],
                       "dynamicPropertyPathList": [],
                       "displayName": "Table",
-                      "bottomRow": 24,
+                      "bottomRow": 21,
                       "columnWidthMap": {
                         "task": 245,
                         "step": 70,
@@ -382,35 +378,6 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{analytics.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"NumLikes\"]))}}",
-                          "sticky": "",
-                          "validation": {},
-                          "cellBackground": ""
-                        },
-                        "TotalEarnings": {
-                          "allowCellWrapping": false,
-                          "index": 2,
-                          "width": 150,
-                          "originalId": "TotalEarnings",
-                          "id": "TotalEarnings",
-                          "alias": "TotalEarnings",
-                          "horizontalAlignment": "LEFT",
-                          "verticalAlignment": "CENTER",
-                          "columnType": "text",
-                          "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": true,
-                          "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
-                          "isCellVisible": true,
-                          "isDerived": false,
-                          "label": "TotalEarnings",
-                          "isSaveVisible": true,
-                          "isDiscardVisible": true,
-                          "computedValue": "{{analytics.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"TotalEarnings\"]))}}",
                           "sticky": "",
                           "validation": {},
                           "cellBackground": ""
