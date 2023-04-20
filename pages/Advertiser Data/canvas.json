@@ -1193,8 +1193,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "Campaigns.selectedRow.CampaignID",
-                "Ads.selectedRow.AdID"
+                "Ads.selectedRow.AdID",
+                "Campaigns.selectedRow.CampaignID"
               ],
               "timeoutInMillisecond": 10000
             },
