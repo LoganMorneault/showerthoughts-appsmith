@@ -78,7 +78,7 @@
                         "label"
                       ],
                       "topRow": 1,
-                      "bottomRow": 6,
+                      "bottomRow": 5,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -179,7 +179,7 @@
                       "borderColor": "#E0DEDE",
                       "isVisibleDownload": false,
                       "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-                      "topRow": 6,
+                      "topRow": 5,
                       "isSortable": false,
                       "type": "TABLE_WIDGET_V2",
                       "animateLoading": true,
@@ -201,6 +201,9 @@
                         },
                         {
                           "key": "primaryColumns.NumThoughts.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.TotalEarnings.computedValue"
                         }
                       ],
                       "needsHeightForContent": true,
@@ -239,7 +242,7 @@
                         }
                       },
                       "borderRadius": "1.5rem",
-                      "columnUpdatedAt": 1682008690815,
+                      "columnUpdatedAt": 1682009956656,
                       "originalBottomRow": 15,
                       "defaultSelectedRowIndices": [
                         0
@@ -249,7 +252,8 @@
                       "columnOrder": [
                         "NumThoughts",
                         "NumLikes",
-                        "NumComments"
+                        "NumComments",
+                        "TotalEarnings"
                       ],
                       "dynamicPropertyPathList": [
                         {
@@ -257,7 +261,7 @@
                         }
                       ],
                       "displayName": "Table",
-                      "bottomRow": 15,
+                      "bottomRow": 14,
                       "columnWidthMap": {
                         "task": 245,
                         "step": 70,
@@ -355,6 +359,35 @@
                           "sticky": "",
                           "validation": {},
                           "cellBackground": ""
+                        },
+                        "TotalEarnings": {
+                          "allowCellWrapping": false,
+                          "index": 3,
+                          "width": 150,
+                          "originalId": "TotalEarnings",
+                          "id": "TotalEarnings",
+                          "alias": "TotalEarnings",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textColor": "",
+                          "textSize": "0.875rem",
+                          "fontStyle": "",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "TotalEarnings",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{StatsGrid.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"TotalEarnings\"]))}}",
+                          "sticky": "",
+                          "validation": {},
+                          "cellBackground": ""
                         }
                       },
                       "key": "xlcmilug6h",
@@ -381,7 +414,7 @@
                       "borderColor": "#E0DEDE",
                       "isVisibleDownload": false,
                       "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-                      "topRow": 23,
+                      "topRow": 22,
                       "isSortable": true,
                       "type": "TABLE_WIDGET_V2",
                       "inlineEditingSaveOption": "ROW_LEVEL",
@@ -459,7 +492,7 @@
                       ],
                       "dynamicPropertyPathList": [],
                       "displayName": "Table",
-                      "bottomRow": 51,
+                      "bottomRow": 50,
                       "columnWidthMap": {
                         "task": 245,
                         "step": 70,
@@ -615,7 +648,7 @@
                       "borderColor": "#E0DEDE",
                       "isVisibleDownload": false,
                       "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-                      "topRow": 23,
+                      "topRow": 22,
                       "isSortable": true,
                       "type": "TABLE_WIDGET_V2",
                       "inlineEditingSaveOption": "ROW_LEVEL",
@@ -693,7 +726,7 @@
                       ],
                       "dynamicPropertyPathList": [],
                       "displayName": "Table",
-                      "bottomRow": 51,
+                      "bottomRow": 50,
                       "columnWidthMap": {
                         "task": 245,
                         "step": 70,
@@ -850,8 +883,8 @@
                       "searchTags": [
                         "line"
                       ],
-                      "topRow": 19,
-                      "bottomRow": 51,
+                      "topRow": 18,
+                      "bottomRow": 50,
                       "parentRowSpace": 10,
                       "type": "DIVIDER_WIDGET",
                       "capType": "dot",
@@ -888,8 +921,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 19,
-                      "bottomRow": 23,
+                      "topRow": 18,
+                      "bottomRow": 22,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -944,8 +977,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 19,
-                      "bottomRow": 23,
+                      "topRow": 18,
+                      "bottomRow": 22,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -999,8 +1032,8 @@
                       "searchTags": [
                         "line"
                       ],
-                      "topRow": 15,
-                      "bottomRow": 19,
+                      "topRow": 14,
+                      "bottomRow": 18,
                       "parentRowSpace": 10,
                       "type": "DIVIDER_WIDGET",
                       "capType": "dot",
