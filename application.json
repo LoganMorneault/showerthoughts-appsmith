@@ -7,6 +7,14 @@
     {
       "id": "Influencer - Thought",
       "isDefault": false
+    },
+    {
+      "id": "Advertiser Data",
+      "isDefault": false
+    },
+    {
+      "id": "Create a new Campaign",
+      "isDefault": false
     }
   ],
   "viewMode": false,
