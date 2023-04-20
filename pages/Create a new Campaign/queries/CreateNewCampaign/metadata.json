@@ -30,7 +30,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"advertiser_id\":{{NewCampaign.data.AdvertiserID}},\n\t\"title\":{{NewCampaign.data.Title}},\n\t\"cost\":{{NewCampaign.data.Cost}},\n\t\"start_date\":{{NewCampaign.data.StartDate}},\n\t\"end_date\":{{NewCampaign.data.EndDate}}\n}",
+      "body": "{\n\t\"advertiser_id\":{{NewCampaign.data.AdvertiserID}},\n\t\"title\":{{NewCampaign.data.Title}},\n\t\"cost\":{{NewCampaign.data.Cost}},\n\t\"start_date\":{{NewCampaign.data.StartDate.replace(\"T\", \" \").split(\".\")[0]}},\n\t\"end_date\":{{NewCampaign.data.EndDate.replace(\"T\", \" \").split(\".\")[0]}}\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -55,8 +55,8 @@
     "jsonPathKeys": [
       "NewCampaign.data.AdvertiserID",
       "NewCampaign.data.Cost",
-      "NewCampaign.data.EndDate",
-      "NewCampaign.data.StartDate",
+      "NewCampaign.data.EndDate.replace(\"T\", \" \").split(\".\")[0]",
+      "NewCampaign.data.StartDate.replace(\"T\", \" \").split(\".\")[0]",
       "NewCampaign.data.Title"
     ],
     "userSetOnLoad": false,

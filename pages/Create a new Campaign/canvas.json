@@ -29,7 +29,7 @@
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "multiRowSelection": false,
               "borderColor": "#E0DEDE",
-              "isVisibleDownload": true,
+              "isVisibleDownload": false,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
               "topRow": 35,
               "isSortable": true,
@@ -39,9 +39,6 @@
               "dynamicBindingPathList": [
                 {
                   "key": "accentColor"
-                },
-                {
-                  "key": "borderRadius"
                 },
                 {
                   "key": "boxShadow"
@@ -115,8 +112,8 @@
                   "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
                 }
               },
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1682016363012,
+              "borderRadius": "1.5rem",
+              "columnUpdatedAt": 1682017660205,
               "originalBottomRow": 74,
               "defaultSelectedRowIndices": [
                 0
@@ -126,14 +123,14 @@
               "columnOrder": [
                 "AdvertiserID",
                 "AdvertiserName",
+                "Title",
+                "StartDate",
+                "EndDate",
+                "Cost",
                 "CampaignID",
                 "ContactEmail",
                 "ContactName",
-                "Cost",
-                "CreationDate",
-                "EndDate",
-                "StartDate",
-                "Title"
+                "CreationDate"
               ],
               "dynamicPropertyPathList": [
                 {
@@ -175,7 +172,7 @@
                   "fontStyle": "",
                   "enableFilter": true,
                   "enableSort": true,
-                  "isVisible": true,
+                  "isVisible": false,
                   "isDisabled": false,
                   "isCellEditable": false,
                   "isEditable": false,
@@ -233,7 +230,7 @@
                   "fontStyle": "",
                   "enableFilter": true,
                   "enableSort": true,
-                  "isVisible": true,
+                  "isVisible": false,
                   "isDisabled": false,
                   "isCellEditable": false,
                   "isEditable": false,
@@ -349,7 +346,7 @@
                   "fontStyle": "",
                   "enableFilter": true,
                   "enableSort": true,
-                  "isVisible": true,
+                  "isVisible": false,
                   "isDisabled": false,
                   "isCellEditable": false,
                   "isEditable": false,
@@ -493,9 +490,6 @@
               "dynamicTriggerPathList": [],
               "leftColumn": 7,
               "dynamicBindingPathList": [
-                {
-                  "key": "borderRadius"
-                },
                 {
                   "key": "boxShadow"
                 }
@@ -950,7 +944,7 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "borderRadius": "1.5rem",
               "maxDynamicHeight": 9000,
               "minDynamicHeight": 10
             }

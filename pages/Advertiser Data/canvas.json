@@ -41,9 +41,6 @@
                   "key": "accentColor"
                 },
                 {
-                  "key": "borderRadius"
-                },
-                {
                   "key": "boxShadow"
                 },
                 {
@@ -114,7 +111,7 @@
                   "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
                 }
               },
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "borderRadius": "1.5rem",
               "columnUpdatedAt": 1681942700733,
               "defaultSelectedRowIndices": [
                 0
@@ -481,9 +478,6 @@
                   "key": "accentColor"
                 },
                 {
-                  "key": "borderRadius"
-                },
-                {
                   "key": "boxShadow"
                 },
                 {
@@ -540,7 +534,7 @@
                   "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
                 }
               },
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "borderRadius": "1.5rem",
               "columnUpdatedAt": 1681943245077,
               "defaultSelectedRowIndices": [
                 0
@@ -761,9 +755,6 @@
                   "key": "accentColor"
                 },
                 {
-                  "key": "borderRadius"
-                },
-                {
                   "key": "boxShadow"
                 },
                 {
@@ -814,7 +805,7 @@
                   "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
                 }
               },
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "borderRadius": "1.5rem",
               "columnUpdatedAt": 1681973134791,
               "defaultSelectedRowIndices": [
                 0
@@ -975,9 +966,6 @@
                   "key": "accentColor"
                 },
                 {
-                  "key": "borderRadius"
-                },
-                {
                   "key": "boxShadow"
                 },
                 {
@@ -1028,7 +1016,7 @@
                   "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
                 }
               },
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "borderRadius": "1.5rem",
               "columnUpdatedAt": 1681973134791,
               "defaultSelectedRowIndices": [
                 0
